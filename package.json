@@ -1,0 +1,37 @@
+{
+  "name": "nbsmqtt2",
+  "version": "0.0.1",
+  "description": "A simple but powerfull MQTT client built on Electron and Mqtt.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NBScube/NBSmqtt2.git"
+  },
+  "keywords": [
+    "mqtt.js",
+    "electron",
+    "nbsmqtt"
+  ],
+  "author": "Nicolas Bachschwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NBScube/NBSmqtt2/issues"
+  },
+  "homepage": "https://github.com/NBScube/NBSmqtt2#readme",
+  "devDependencies": {
+    "electron": "^3.0.8"
+  },
+  "dependencies": {
+    "async-mqtt": "^2.0.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "jquery-color": "^3.0.0-alpha.1",
+    "mqtt": "^2.18.8",
+    "popper.js": "^1.15.0",
+    "vue": "^2.6.10"
+  }
+}

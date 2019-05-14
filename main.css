@@ -1,6 +1,14 @@
-body, html {height: 100%;width: 100%;margin: 0px;padding:0px;}
+body, html {height: 100%;width: 100%;margin: 0px;padding:0px;max-height: 100%; overflow: hidden;}
 .nbswrapper {height: 100%;}
 
 /* Main stuff */
 
-.fullLength
+#text{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #383838;
+  color: #ffffff;
+  height: 500px;
+  overflow-y: scroll;
+}

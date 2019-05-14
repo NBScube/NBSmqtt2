@@ -2,17 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="helper/main.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>NBSmqtt2 (Version: 1.0.0)</title>
   </head>
   <body>
     <div>
-    <!--<script type="application/javascript" src="helper/jquery.js"></script>-->
-    <div class="nbswrapper">
-      <h1>Hello World!</h1>
+      <div class="nbswrapper">
+        <h1 id="message">Click on the textfield when finished!</h1>
+      </div>
+      <input type="text" id="broker" placeholder="tcp://example.com:1883"><input type="text" id="topic" placeholder="#"><br>
+      <textarea id="text" readonly></textarea>
     </div>
-    <div id="pusher"></div>
-    <footer> <footer>
+    <!--<div id="pusher"></div>-->
+    <footer></footer>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./node_modules/popper.js/dist/popper.min.js"></script>
+    <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
       require('./renderer.js')
     </script>
